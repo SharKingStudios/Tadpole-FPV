@@ -14,7 +14,7 @@ That inspiration frame looks like this:
 
 After looking around at some other builds of this form factor, I found some similar parts that I could use and created a parts list in this google doc:
 > https://docs.google.com/document/d/1UYxp3Jcj_MZBELJUi8HEg_IUyJKEcsd3nflhL_p9VP8/edit?usp=sharing
-![FPV Drone Parts List](./images/FPVDronePartsList01.png)
+![FPV Drone Parts List](./images/FPVDroneHardwareTable01.png)
 
 Finding good parts on AliExpress was more tedious then I expected as the prices seemed to keep changing, but I think I have a good completed list for the drone that should work well together.
 
