@@ -81,3 +81,32 @@ I also went through and added a footprint for each of the components in the sche
 
 **Total time spent: 2h**
 
+# June 23rd: Wait theres a problem...
+
+While looking over the schematic, I realized that I had made a mistake in the power section.
+Due to some interesting advertising, I had thought that the TP5100 battery charger could handle 2S batteries, but it turns out that is not the case.
+I elected to switch my batteries into a parallel configuration instead of series, which would allow me to use the TP5100 charger.
+This meant I had to change my buck converter since the new nominal voltage would be 3.7V instead of 7.4V. (The buck converter I had selected needed at least 6V to operate)
+Soon I was down the rabbit hole of finding a new buck converter that would be able to work with the new voltage.
+
+During this process, I found the WEBENCH Power Designer by Texas Instruments, which I used to create a buck boost converter schematic that would work with the new voltage.
+![Buck Boost Schematic](./images/BuckBoostConverterSchematic.png)
+
+I also found some components on LCSC for the schematic.
+
+**Total time spent: 2 more hours...**
+
+# June 24th: Finished PCB Schematic Design (Again)
+
+Figuring out how to import all of the components from LCSC into KiCAD quicker this time. The issue was that it did it in a kinda weird way, leaving me going around in circles trying to figure out how to actually get the parts into my schematic.
+Anyway, I got the parts imported and added to the schematic and wired them up.
+![New Power Schematic](./images/newpowersection.png)
+
+The next challenge was figuring out the footprint naming conventions for the parts. 
+>*imperial vs metric woes...*
+After I did this I was able to update all of the footprints to be the correct, cheap, smd components. (Soldering this later will be fun...)
+![Footprint Updates](./images/allsmdcomponentsnow.png)
+
+At this point I should be ready to finally start the PCB layout :p
+
+**Total time spent: 3h**
