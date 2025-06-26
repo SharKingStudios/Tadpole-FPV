@@ -1,4 +1,4 @@
-25755131782789360
+25762136141405631
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57141,6 +57141,13 @@ ceramic
 3
 3
 Custom
+0603 LED
+
+
+0
+2
+2
+Custom
 BATTERY-SMD_18650-1S-L77.1-W20.7-1
 
 
@@ -57163,6 +57170,20 @@ E28-2G4M27S LoRa EBYTE
 16
 Custom
 IND-SMD_L4.0-W4.0_XGL4020
+
+
+0
+2
+2
+Custom
+LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E
+
+
+0
+4
+3
+Custom
+LED0603-RD
 
 
 0
@@ -57196,6 +57217,13 @@ TP5100
 0
 4
 4
+Custom
+Untitled
+
+
+0
+2
+2
 Custom
 VSON-10_L3.0-W2.0-P0.50-TL
 

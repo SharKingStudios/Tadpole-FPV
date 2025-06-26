@@ -16,9 +16,9 @@
 		)
 	)
 	(property "Value" "TP5100"
-		(at 0 1 0)
+		(at 0 1.5 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "00fdc64d-8818-4070-8d1a-f8c288cf9f3f")
 		(effects
 			(font
@@ -73,7 +73,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
@@ -86,7 +86,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
@@ -99,7 +99,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
@@ -112,13 +112,13 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "62985c33-01c6-42d3-91be-0c7a3e5cbf24")
@@ -162,4 +162,15 @@
 		(uuid "0ca361da-72b1-4239-a488-75222e321f19")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Parts/.3dshapes/tp5100 v2.step"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

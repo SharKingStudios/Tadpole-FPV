@@ -77,6 +77,7 @@ I also went through and added a footprint for each of the components in the sche
 ![Footprint Updates](./images/footprintupdates.png)
 
 >*No harm in double checking the footprints, right?*
+
 >![physically printed footprints](./images/physicallyprintedfootprints.jpg)
 
 **Total time spent: 2h**
@@ -104,9 +105,44 @@ Anyway, I got the parts imported and added to the schematic and wired them up.
 
 The next challenge was figuring out the footprint naming conventions for the parts. 
 >*imperial vs metric woes...*
+
 After I did this I was able to update all of the footprints to be the correct, cheap, smd components. (Soldering this later will be fun...)
 ![Footprint Updates](./images/allsmdcomponentsnow.png)
 
 At this point I should be ready to finally start the PCB layout :p
 
 **Total time spent: 3h**
+
+# June 25th: Finished PCB Layout and Wiring
+
+I started the day knowing I wanted to make the PCB as absolutely small as possible, and portrait.
+The size would be largely constrained by the battery holders on the back of the PCB.
+Placing components got interesting as the batteries prevented me from adding tht components in that area.
+This meant that a majority of the components would get pushed to the extremes of the board.
+![Finished PCB Layout](./images/finishedlayout.png)
+
+With all the components in place, I started wiring the traces of the board.
+This process was made harder by my incessent love of thicker traces, and close component positions.
+>*Now this is my kind of puzzle*
+
+I used .4mm traces for a majority of the board leading to this quite *mesmerising* power section routing:
+![Finished Power Section Routing](./images/finishedpowersectionrouting.png)
+
+After a good while with some music in the background, I reached this:
+![Finished PCB Layout View Front](./images/boardfrontfinishedlayout.png)
+![Finished PCB Layout View Back](./images/boardbackfinishedlayout.png)
+![Finished PCB Routing](./images/finishedrouting.png)
+
+**Total time spent: 5h**
+
+# June 26th: PCB Art!
+
+I spent the day working on the PCB art and getting it ready for fabrication.
+Here's the latest renders of the board:
+![PCB Art Front](./images/pcbartfront.png)
+![PCB Art Back](./images/pcbartback.png)
+![PCB Art Diagonal](./images/pcbartdiagonal.png)
+![PCB Art!](./images/pcbroutingwithart.png)
+
+**Total time spent: 2h**
+
